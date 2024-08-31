@@ -1,0 +1,12 @@
+// Definir un array con 4 números
+let numbers = [10, 50, 30, 40];
+
+// Sumar los números del array utilizando reduce()
+let sum = numbers.reduce((acc, current) => acc + current, 0);
+
+// Calcular la media aritmética
+let average = sum / numbers.length;
+
+// Imprimir la suma y la media
+console.log(`Suma: ${sum}`);
+console.log(`Media aritmética: ${average}`);
