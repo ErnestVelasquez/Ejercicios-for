@@ -1,0 +1,18 @@
+const readline = require('readline');
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question('Introduce un número: ', (num) => {
+    const n = parseInt(num);
+    let suma = 0;
+
+    for (let i = 1; i <= n; i++) {
+        suma += i;
+    }
+
+    console.log(`Los enteros de 0 a ${n} suman ${suma}`);
+    rl.close();
+});
