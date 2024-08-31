@@ -1,0 +1,7 @@
+let numero = 10; // puedes cambiar este valor por cualquier número que desees
+
+for (let i = 0; i < numero; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
